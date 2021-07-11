@@ -8,6 +8,9 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
+/**
+ * 动态代理Cglib代理
+ */
 public class CglibProxy implements MethodInterceptor {
 
     private UserServiceImpl target;

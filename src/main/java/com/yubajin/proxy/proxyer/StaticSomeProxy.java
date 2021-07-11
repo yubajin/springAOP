@@ -3,6 +3,9 @@ package com.yubajin.proxy.proxyer;
 
 import com.yubajin.proxy.service.SomeService;
 
+/**
+ * 静态代理
+ */
 public class StaticSomeProxy implements SomeService {
 
 

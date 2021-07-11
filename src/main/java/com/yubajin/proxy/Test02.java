@@ -12,6 +12,9 @@ public class Test02 {
     public static void main(String[] args) {
         // 获取目标对象
         final SomeService target = new SomeServiceImpl();
+        /***
+         * 动态代理jdk代理
+         */
         // 获取代理对象
         SomeService proxy = (SomeService) Proxy.newProxyInstance(
                 target.getClass().getClassLoader() // 类加载器
