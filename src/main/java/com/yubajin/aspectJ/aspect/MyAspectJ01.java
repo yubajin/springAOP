@@ -34,7 +34,7 @@ public class MyAspectJ01 {
     }
 
     /**
-     * target 目标对象是 com.gupaoedu.service.impl.UserServiceImpl
+     * target 目标对象是 com.yubajin.aspectJ.service.impl.UserServiceImpl
      */
     @Before("target(com.yubajin.aspectJ.service.impl.UserServiceImpl)")
     public void aspectMethod04(){
